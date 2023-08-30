@@ -1,0 +1,5 @@
+bundle*.js
+vendor*.js
+scripts/outputs/*
+/wwwroot
+/docs
