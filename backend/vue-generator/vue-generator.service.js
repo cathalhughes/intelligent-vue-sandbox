@@ -15,7 +15,8 @@ const generateComponent = async ({ componentDescription }) => {
     const model = new OpenAIChat({
         openAIApiKey: process.env.CHATGPT_TOKEN,
         temperature: 0.9,
-        modelName: 'gpt-3.5-turbo',
+        // modelName: 'gpt-3.5-turbo',
+        modelName: 'gpt-4',
     });
 
     //Create the template. The template is actually a "parameterized prompt". A "parameterized prompt" is a prompt in which the input parameter names are used and the parameter values are supplied from external input
